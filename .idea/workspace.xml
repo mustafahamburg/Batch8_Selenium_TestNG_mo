@@ -4,74 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d58ea77-f247-4541-ade2-f29220fe9e06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eurotech/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_01_automation_intro/_1_OpenBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_01_automation_intro/_2_WindowMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_01_automation_intro/_3_JavaFakerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_02_webdriwer_basics/_1_NavigationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_02_webdriwer_basics/_2_CloseAndQuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_02_webdriwer_basics/_3_GetMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_02_webdriwer_basics/_4_CallWebDriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_03_webElement_Intro/_1_VerifyUrlIsNotChanged.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_03_webElement_Intro/_2_VerifyUrlIsChanged.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_03_webElement_Intro/_3_VerifyUserNameIsCorrect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_03_webElement_Intro/_4_ClickSendKeysGetrTextPractis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_03_webElement_Intro/_5_GetAttribute_Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_04/_01_Rewiew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_04/_02_Rewiew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_1_ByID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_2_ByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_3_ByClassName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_3_DuplicateClassName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_4_ByTageName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_5_ByLinkText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_6_ByPartialLinkText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_7_BasicLocaterRewiew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_8_BasicLocaterTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_1_AbsoluteXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_2_RelativeXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_3_RelativeXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_5_RelativeXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_6_RelativeXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_7_RelatiweXpath_Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_8_RelatiweXpath_Task_WithMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_9_RelativeXpath_Tast_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_08_css_locator/_1_Css_Id_Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_08_css_locator/_2_Css_AttributeValue_MultipleAttributeValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_08_css_locator/_3_Css_Contains_StartsWith_EndsWith_ParentToChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_08_css_locator/_4_Css_indexAndFollowingSibling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_09_testNG_intro/_1_FirstTestNG_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_09_testNG_intro/_2_BeforeAfterMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_09_testNG_intro/_3_TestNGAssertionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_1_CheckBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_2_RadioButtons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_3_Disableelements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_4_isDisplayedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_5_GetAttributeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_11_listOfElements_dropDowns/_1_ListOfElements_findElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_11_listOfElements_dropDowns/_2_DropDownWithSelectTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_11_listOfElements_dropDowns/_3_DropDownWithoutSelectTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_12_Alert/_01_Alert01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_12_Alert/_02_MultipleWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_12_alertAndMultipleWindowRewiew/_1_HTML_Popups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_12_alertAndMultipleWindowRewiew/_2_JS_Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_12_alertAndMultipleWindowRewiew/_3_MultipleWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_13_MultipleWindowsFrame/_01_MultipleWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_13_MultipleWindowsFrame/_02_frameAndIframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_13_MultipleWindowsFrame/_03_Wait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_01_WaitIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_02_WaitGenneral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_03_implicitlyWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_04_WaitExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_05_ExplicitlyWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_06_FluentWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/utilities/WebDriverFactory.java" afterDir="false" />
+    <list default="true" id="6d58ea77-f247-4541-ade2-f29220fe9e06" name="Changes" comment="wait">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,6 +156,18 @@
       <option name="presentableId" value="Default" />
       <updated>1686696139832</updated>
     </task>
+    <task id="LOCAL-00001" summary="wait">
+      <created>1689511309465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689511309465</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="wait" />
   </component>
 </project>
