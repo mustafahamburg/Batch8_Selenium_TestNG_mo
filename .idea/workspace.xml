@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d58ea77-f247-4541-ade2-f29220fe9e06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eurotech/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_01_automation_intro/_1_OpenBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_01_automation_intro/_2_WindowMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_01_automation_intro/_3_JavaFakerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_02_webdriwer_basics/_1_NavigationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_02_webdriwer_basics/_2_CloseAndQuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_02_webdriwer_basics/_3_GetMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_02_webdriwer_basics/_4_CallWebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_03_webElement_Intro/_1_VerifyUrlIsNotChanged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_03_webElement_Intro/_2_VerifyUrlIsChanged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_03_webElement_Intro/_3_VerifyUserNameIsCorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_03_webElement_Intro/_4_ClickSendKeysGetrTextPractis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_03_webElement_Intro/_5_GetAttribute_Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_04/_01_Rewiew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_04/_02_Rewiew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_1_ByID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_2_ByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_3_ByClassName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_3_DuplicateClassName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_4_ByTageName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_5_ByLinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_6_ByPartialLinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_7_BasicLocaterRewiew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_05_basic_locators/_8_BasicLocaterTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_1_AbsoluteXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_2_RelativeXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_3_RelativeXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_5_RelativeXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_6_RelativeXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_7_RelatiweXpath_Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_8_RelatiweXpath_Task_WithMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_06_07_xPath_locator/_9_RelativeXpath_Tast_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_08_css_locator/_1_Css_Id_Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_08_css_locator/_2_Css_AttributeValue_MultipleAttributeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_08_css_locator/_3_Css_Contains_StartsWith_EndsWith_ParentToChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_08_css_locator/_4_Css_indexAndFollowingSibling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_09_testNG_intro/_1_FirstTestNG_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_09_testNG_intro/_2_BeforeAfterMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_09_testNG_intro/_3_TestNGAssertionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_1_CheckBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_2_RadioButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_3_Disableelements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_4_isDisplayedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_5_GetAttributeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_11_listOfElements_dropDowns/_1_ListOfElements_findElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_11_listOfElements_dropDowns/_2_DropDownWithSelectTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_11_listOfElements_dropDowns/_3_DropDownWithoutSelectTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_12_Alert/_01_Alert01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_12_Alert/_02_MultipleWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_12_alertAndMultipleWindowRewiew/_1_HTML_Popups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_12_alertAndMultipleWindowRewiew/_2_JS_Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_12_alertAndMultipleWindowRewiew/_3_MultipleWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_13_MultipleWindowsFrame/_01_MultipleWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_13_MultipleWindowsFrame/_02_frameAndIframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_13_MultipleWindowsFrame/_03_Wait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_01_WaitIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_02_WaitGenneral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_03_implicitlyWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_04_WaitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_05_ExplicitlyWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_06_FluentWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/utilities/WebDriverFactory.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RAc4VQhckk0DjFkt35Hin6nKgh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eurotech.tests.day_06_07_xPath_locator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG._06_FluentWait.testFluentWait">
+    <configuration name="_01_WaitIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_14_Wait._01_WaitIntro" />
+      <module name="Batch8_Selenium_TestNG_mo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurotech.tests.day_14_Wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_01_MultipleWindows.testMultipleTextOrWindowsWhichChoose" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch8_Selenium_TestNG_mo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurotech.tests.day_13_MultipleWindowsFrame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_13_MultipleWindowsFrame" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_13_MultipleWindowsFrame._01_MultipleWindows" />
+      <option name="METHOD_NAME" value="testMultipleTextOrWindowsWhichChoose" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_03_implicitlyWait.testimplicitly" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch8_Selenium_TestNG_mo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurotech.tests.day_14_Wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_14_Wait" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_14_Wait._03_implicitlyWait" />
+      <option name="METHOD_NAME" value="testimplicitly" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_05_ExplicitlyWait.testExplicitlyWait" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch8_Selenium_TestNG_mo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurotech.tests.day_14_Wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_14_Wait" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_14_Wait._05_ExplicitlyWait" />
+      <option name="METHOD_NAME" value="testExplicitlyWait" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_06_FluentWait.testFluentWait" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch8_Selenium_TestNG_mo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurotech.tests.day_14_Wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_14_Wait" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_14_Wait._06_FluentWait" />
+      <option name="METHOD_NAME" value="testFluentWait" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG._06_FluentWait.testFluentWait" />
+        <item itemvalue="TestNG._05_ExplicitlyWait.testExplicitlyWait" />
+        <item itemvalue="TestNG._03_implicitlyWait.testimplicitly" />
+        <item itemvalue="Application._01_WaitIntro" />
+        <item itemvalue="TestNG._01_MultipleWindows.testMultipleTextOrWindowsWhichChoose" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d58ea77-f247-4541-ade2-f29220fe9e06" name="Changes" comment="" />
+      <created>1686696139832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686696139832</updated>
+    </task>
+    <servers />
+  </component>
+</project>
