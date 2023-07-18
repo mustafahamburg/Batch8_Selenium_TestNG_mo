@@ -1,6 +1,7 @@
 package com.eurotech.tests.day_10_typeOfWebElements;
 
 import com.eurotech.utilities.WebDriverFactory;
+import org.apache.hc.core5.util.TimeValue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -39,6 +40,7 @@ public class _2_RadioButtons {
         WebElement yellow=driver.findElement(By.cssSelector("[value='yellow']"));
         Assert.assertFalse(yellow.isSelected());
         yellow.click();
+
         Thread.sleep(2000);
         Assert.assertTrue(yellow.isSelected());
         WebElement blue = driver.findElement(By.cssSelector("[value='blue']"));

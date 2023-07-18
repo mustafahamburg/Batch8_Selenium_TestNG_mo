@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d58ea77-f247-4541-ade2-f29220fe9e06" name="Changes" comment="wait1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_15_actions_fileUpload_isExecutor/_1_Actions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_2_RadioButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_2_RadioButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_02_WaitGenneral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_02_WaitGenneral.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +28,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2RAc4VQhckk0DjFkt35Hin6nKgh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,86 +35,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.eurotech.tests.day_06_07_xPath_locator" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._06_FluentWait.testFluentWait">
-    <configuration name="_01_WaitIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_14_Wait._01_WaitIntro" />
-      <module name="Batch8_Selenium_TestNG_mo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eurotech.tests.day_14_Wait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_01_MultipleWindows.testMultipleTextOrWindowsWhichChoose" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch8_Selenium_TestNG_mo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eurotech.tests.day_13_MultipleWindowsFrame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_13_MultipleWindowsFrame" />
-      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_13_MultipleWindowsFrame._01_MultipleWindows" />
-      <option name="METHOD_NAME" value="testMultipleTextOrWindowsWhichChoose" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_03_implicitlyWait.testimplicitly" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch8_Selenium_TestNG_mo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eurotech.tests.day_14_Wait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_14_Wait" />
-      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_14_Wait._03_implicitlyWait" />
-      <option name="METHOD_NAME" value="testimplicitly" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_05_ExplicitlyWait.testExplicitlyWait" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch8_Selenium_TestNG_mo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eurotech.tests.day_14_Wait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_14_Wait" />
-      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_14_Wait._05_ExplicitlyWait" />
-      <option name="METHOD_NAME" value="testExplicitlyWait" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG._1_Actions.clickWithaction">
     <configuration name="_06_FluentWait.testFluentWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch8_Selenium_TestNG_mo" />
       <extension name="coverage">
@@ -137,13 +66,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_1_Actions.clickWithaction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch8_Selenium_TestNG_mo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor._1_Actions" />
+      <option name="METHOD_NAME" value="clickWithaction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1_Actions.dragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch8_Selenium_TestNG_mo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor._1_Actions" />
+      <option name="METHOD_NAME" value="dragAndDrop" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1_Actions.testhoverOver" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch8_Selenium_TestNG_mo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor._1_Actions" />
+      <option name="METHOD_NAME" value="testhoverOver" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1_FirstTestNG_test.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch8_Selenium_TestNG_mo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurotech.tests.day_09_testNG_intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_09_testNG_intro" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_09_testNG_intro._1_FirstTestNG_test" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG._1_Actions.clickWithaction" />
+        <item itemvalue="TestNG._1_Actions.dragAndDrop" />
+        <item itemvalue="TestNG._1_Actions.testhoverOver" />
+        <item itemvalue="TestNG._1_FirstTestNG_test.test2" />
         <item itemvalue="TestNG._06_FluentWait.testFluentWait" />
-        <item itemvalue="TestNG._05_ExplicitlyWait.testExplicitlyWait" />
-        <item itemvalue="TestNG._03_implicitlyWait.testimplicitly" />
-        <item itemvalue="Application._01_WaitIntro" />
-        <item itemvalue="TestNG._01_MultipleWindows.testMultipleTextOrWindowsWhichChoose" />
       </list>
     </recent_temporary>
   </component>
