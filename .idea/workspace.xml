@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d58ea77-f247-4541-ade2-f29220fe9e06" name="Changes" comment="wait1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_15_actions_fileUpload_isExecutor/_1_Actions.java" afterDir="false" />
+    <list default="true" id="6d58ea77-f247-4541-ade2-f29220fe9e06" name="Changes" comment="Actions">
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/Dashboardpage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_15_actions_fileUpload_isExecutor/_2_JS_ExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_15_actions_fileUpload_isExecutor/_3_fileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_16_Rewiew/Question" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_16_Rewiew/_01_Example_ERP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_17_webTables/_1_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_17_webTables/_2_WebTables_Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_18_properties_singleton/_1_PropertiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_18_properties_singleton/_2_SingletonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_18_properties_singleton/_3_SingletonDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_18_properties_singleton/_4_SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_18_properties_singleton/_5_LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_18_properties_singleton/_6_LoginTest_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_19_pom_1/_1_PositiveLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_19_pom_1/_2_NegativeLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_19_pom_1/_3_TestWithListOfWebElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ccc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_2_RadioButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_10_typeOfWebElements/_2_RadioButtons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_02_WaitGenneral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_14_Wait/_02_WaitGenneral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_15_actions_fileUpload_isExecutor/_1_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_15_actions_fileUpload_isExecutor/_1_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/utilities/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/utilities/WebDriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +60,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -47,18 +68,18 @@
       <recent name="com.eurotech.tests.day_06_07_xPath_locator" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._1_Actions.clickWithaction">
-    <configuration name="_06_FluentWait.testFluentWait" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG._3_TestWithListOfWebElements.positiveLoginTestWithListOfWebElement">
+    <configuration name="_1_PositiveLoginTest.positiveLoginTest_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch8_Selenium_TestNG_mo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eurotech.tests.day_14_Wait.*" />
+          <option name="PATTERN" value="com.eurotech.tests.day_19_pom_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_14_Wait" />
-      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_14_Wait._06_FluentWait" />
-      <option name="METHOD_NAME" value="testFluentWait" />
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_19_pom_1" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_19_pom_1._1_PositiveLoginTest" />
+      <option name="METHOD_NAME" value="positiveLoginTest_1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -66,17 +87,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_Actions.clickWithaction" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_1_PositiveLoginTest.positiveLoginTest_2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch8_Selenium_TestNG_mo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor.*" />
+          <option name="PATTERN" value="com.eurotech.tests.day_19_pom_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor" />
-      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor._1_Actions" />
-      <option name="METHOD_NAME" value="clickWithaction" />
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_19_pom_1" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_19_pom_1._1_PositiveLoginTest" />
+      <option name="METHOD_NAME" value="positiveLoginTest_2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,17 +105,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_Actions.dragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_2_NegativeLoginTest.wrongPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch8_Selenium_TestNG_mo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor.*" />
+          <option name="PATTERN" value="com.eurotech.tests.day_19_pom_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor" />
-      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor._1_Actions" />
-      <option name="METHOD_NAME" value="dragAndDrop" />
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_19_pom_1" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_19_pom_1._2_NegativeLoginTest" />
+      <option name="METHOD_NAME" value="wrongPasswordTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,17 +123,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_Actions.testhoverOver" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_2_NegativeLoginTest.wrongUserNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch8_Selenium_TestNG_mo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor.*" />
+          <option name="PATTERN" value="com.eurotech.tests.day_19_pom_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor" />
-      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_15_actions_fileUpload_isExecutor._1_Actions" />
-      <option name="METHOD_NAME" value="testhoverOver" />
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_19_pom_1" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_19_pom_1._2_NegativeLoginTest" />
+      <option name="METHOD_NAME" value="wrongUserNameTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,17 +141,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_FirstTestNG_test.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_3_TestWithListOfWebElements.positiveLoginTestWithListOfWebElement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch8_Selenium_TestNG_mo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eurotech.tests.day_09_testNG_intro.*" />
+          <option name="PATTERN" value="com.eurotech.tests.day_19_pom_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_09_testNG_intro" />
-      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_09_testNG_intro._1_FirstTestNG_test" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_19_pom_1" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_19_pom_1._3_TestWithListOfWebElements" />
+      <option name="METHOD_NAME" value="positiveLoginTestWithListOfWebElement" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG._1_Actions.clickWithaction" />
-        <item itemvalue="TestNG._1_Actions.dragAndDrop" />
-        <item itemvalue="TestNG._1_Actions.testhoverOver" />
-        <item itemvalue="TestNG._1_FirstTestNG_test.test2" />
-        <item itemvalue="TestNG._06_FluentWait.testFluentWait" />
+        <item itemvalue="TestNG._3_TestWithListOfWebElements.positiveLoginTestWithListOfWebElement" />
+        <item itemvalue="TestNG._2_NegativeLoginTest.wrongUserNameTest" />
+        <item itemvalue="TestNG._2_NegativeLoginTest.wrongPasswordTest" />
+        <item itemvalue="TestNG._1_PositiveLoginTest.positiveLoginTest_2" />
+        <item itemvalue="TestNG._1_PositiveLoginTest.positiveLoginTest_1" />
       </list>
     </recent_temporary>
   </component>
@@ -178,13 +199,22 @@
       <option name="project" value="LOCAL" />
       <updated>1689516329575</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Actions">
+      <option name="closed" value="true" />
+      <created>1689639577335</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689639577335</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wait" />
     <MESSAGE value="wait." />
     <MESSAGE value="wait1" />
-    <option name="LAST_COMMIT_MESSAGE" value="wait1" />
+    <MESSAGE value="Actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actions" />
   </component>
 </project>

@@ -2,6 +2,7 @@ package com.eurotech.tests.day_15_actions_fileUpload_isExecutor;
 
 import com.eurotech.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -13,6 +14,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import javax.swing.*;
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 public class _1_Actions {
@@ -75,6 +77,27 @@ public class _1_Actions {
          * hover over all of them and verify that "name:user1-2-3" is displayed
          * if any time issues solve them with implicitly or explicitly waits
          */
+        driver.get("https://the-internet.herokuapp.com/hovers");
+
+        //(//img)[2]
+        //(//img)[3]
+        //(//img)[4]
+
+        //h5[text()='name: user1']
+        //h5[text()='name: user2']
+        //h5[text()='name: user3']
+
+        for (int i = 2; i <=4 ; i++) {
+            String imgXpath="(//img)["+i+"]";
+            WebElement img = driver.findElement(By.xpath(imgXpath));
+            actions.moveToElement(img).perform();
+
+            String userText="//h5[text()='name: user"+(i-1)+"']";
+            WebElement user=driver.findElement(By.xpath(userText));
+            Assert.assertTrue(new WebDriverWait(driver,10)
+                    .until(ExpectedConditions.visibilityOf(user)).isDisplayed());
+
+        }
 
     }
 
@@ -109,7 +132,7 @@ public class _1_Actions {
     }
 
     @Test
-    public void clickWithaction() {
+    public void clickWithaction() throws InterruptedException {
         /**
          * navigate to https://skill-test.net/mouse-double-click
          * make double click to the Click box
@@ -134,10 +157,49 @@ public class _1_Actions {
 
         WebElement startBtn = driver.findElement(By.id("clicker"));
         actions.contextClick(startBtn).perform();// contextClick-> sag click demek
+        Thread.sleep(2000);
         WebElement resetBtn= driver.findElement(By.id("reset"));
         actions.click(resetBtn).perform();
 
+    }
 
+    @Test
+    public void testfillingFormWithAction_Task() {
+        /**
+         * go to http://www.eurotech.study/
+         * accept cookies
+         * click login
+         * send your credentials to related boxes and then click login button
+         * click on Add Education link
+         * fill form with action class
+         * verify the success message after submitted the form
+         */
+
+    }
+
+    @Test
+    public void rıgtClıckOpennewTab() throws InterruptedException {
+        /**
+         * go to https://testpages.herokuapp.com/styled/csspseudo/css-hover.html
+         * make right click and open in new tab  (sag ctrl+click)
+         * switch to new opened tab
+         * verify that the page title is "EvilTester.com"
+         */
+        driver.get("https://testpages.herokuapp.com/styled/csspseudo/css-hover.html");
+        Thread.sleep(2000);
+        WebElement link = driver.findElement(By.linkText("EvilTester.com"));
+        actions.keyDown(Keys.LEFT_CONTROL)
+                .click(link)
+                .keyUp(Keys.LEFT_CONTROL)
+                .build()
+                .perform();
+
+        ArrayList<String>tabs=new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(1));
+        String actualTitle=driver.getTitle();
+        String expectedtitle="EvilTester.com";
+
+        Assert.assertEquals(actualTitle,expectedtitle);
 
     }
 }

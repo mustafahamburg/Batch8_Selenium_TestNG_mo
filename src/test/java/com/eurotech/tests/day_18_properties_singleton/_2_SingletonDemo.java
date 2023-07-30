@@ -1,0 +1,18 @@
+package com.eurotech.tests.day_18_properties_singleton;
+
+import com.eurotech.utilities.ConfigurationReader;
+
+public class _2_SingletonDemo {
+
+    private _2_SingletonDemo(){}
+    private static String driver;
+    public static String getDriver(){
+        if (driver==null){
+            System.out.println("driver is null,assing a value to it");
+            driver= ConfigurationReader.get("browser");
+        }else {
+            System.out.println("It(driver) was value,just return current value");
+        }
+        return driver;
+    }
+}

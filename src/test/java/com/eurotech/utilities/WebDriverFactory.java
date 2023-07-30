@@ -35,3 +35,31 @@ public class WebDriverFactory {
    }
 
 }
+ /*
+    Burada yapilan gelistirmelerin duzenli olmasi ve dizayn olarak rahat anlasilmasinin
+    yaninda, kolayca yonetilmesi icin boyle bir yapiya ihtiyac duyulmustur.
+
+    POM(Page Object Model)-->Kesinlikle pom.xml ile KARISTIRILMAMALI
+    POM--> Framework duzenini ifade eder. Utilities ve diger sayfalarin duzeni.
+
+
+    pom.xml--> Project Object Model olarak ifade edilir.
+    Dependency leri icerisine alan MVN Repository ile calisan model dir.
+
+    POM duzeni olarak calisacaksiniz. Detaylandiracagiz.
+
+
+    Default olarak Test ve Main branchlari ayrilmis sekilde proje create ediliyor.
+
+
+    Bizler, TEST Package altinda calisiriz.
+
+
+    Utilities Package ve ilerde bazi utility Class lar neden kullanilma ihtiyaci vardir??
+     -Clean kod ahlaki icin (SOLID credantials, clean patttern).
+     -Daha verimli ve kullanisli olmasi icin. Ram daha az yorar.
+
+
+
+
+     */
