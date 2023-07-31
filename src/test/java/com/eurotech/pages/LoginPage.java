@@ -1,5 +1,6 @@
 package com.eurotech.pages;
 
+import com.eurotech.utilities.ConfigurationReader;
 import com.eurotech.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -9,11 +10,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class LoginPage {
-    public LoginPage(){
-        PageFactory.initElements(Driver.get(),this);
+public class LoginPage extends BasePage{
 
-    }
+    // public LoginPage(){PageFactory.initElements(Driver.get(),this);}
+    // NOT: parent class da old. burada tanimlamaya ihtiyac yok..
+
     @FindBy(id="email")
     public WebElement emailBox;
    // WebElement emailBox = driver.findElement(By.id("email"));
@@ -45,5 +46,41 @@ public class LoginPage {
     public WebElement wrongUserEmailWarningMessage;
     @FindBy(css = ".form-control,button")
     public List<WebElement>loginInputs;
+    public void login(String userEmail,String password){
+        emailBox.sendKeys(userEmail);
+        passwordBox.sendKeys(password);
+        loginBtn.click();
+
+    }
+    public void login(){
+        emailBox.sendKeys(ConfigurationReader.get("userEmail"));
+        passwordBox.sendKeys(ConfigurationReader.get("password"));
+        loginBtn.click();
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

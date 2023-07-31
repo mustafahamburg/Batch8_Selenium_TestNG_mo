@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class _5_LoginTest extends TestBase  {
-    WebDriver driver;
+    //WebDriver driver;
 
 //    @BeforeMethod
 //    public void setUp() {
@@ -32,7 +32,8 @@ public class _5_LoginTest extends TestBase  {
 
     @Test
     public void loginTest() {
-
+       // driver=Driver.get();
+        //driver.get(ConfigurationReader.get("url"));
         WebElement emailBox=driver.findElement(By.id("email"));
         emailBox.sendKeys(ConfigurationReader.get("userEmail"));
         WebElement passwordBox= driver.findElement(By.id("yourPassword"));

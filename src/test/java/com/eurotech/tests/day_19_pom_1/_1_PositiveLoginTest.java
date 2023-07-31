@@ -1,5 +1,6 @@
 package com.eurotech.tests.day_19_pom_1;
 
+import com.eurotech.pages.DashboardPage;
 import com.eurotech.pages.LoginPage;
 import com.eurotech.tests.TestBase;
 import com.eurotech.utilities.ConfigurationReader;
@@ -10,6 +11,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class _1_PositiveLoginTest extends TestBase {
+
+    LoginPage loginPage;
+
     @Test
     public void positiveLoginTestOldVersion() {
         /**
@@ -18,7 +22,7 @@ public class _1_PositiveLoginTest extends TestBase {
          * verify success login with page title (contains Dashboard)
          * old version
          */
-        driver.get(ConfigurationReader.get("url"));
+       // driver.get(ConfigurationReader.get("url"));
         WebElement emailBox = driver.findElement(By.id("email"));
         WebElement passwordBox = driver.findElement(By.id("yourPassword"));
         WebElement loginBtn = driver.findElement(By.xpath("//*[text()='Login']"));
@@ -43,7 +47,8 @@ public class _1_PositiveLoginTest extends TestBase {
          * POM version
          */
         driver.get(ConfigurationReader.get("url"));
-        LoginPage loginPage=new LoginPage();
+        //LoginPage loginPage=new LoginPage();
+        loginPage=new LoginPage();
 
      /*   WebElement emailBox= loginPage.emailBox;
         WebElement passwordBox = loginPage.passwordBox;
@@ -74,8 +79,9 @@ public class _1_PositiveLoginTest extends TestBase {
          * verify success login with page title (contains Dashboard)
          * POM version
          */
-        driver.get(ConfigurationReader.get("url"));
-        LoginPage loginPage=new LoginPage();
+        //driver.get(ConfigurationReader.get("url"));
+        //LoginPage loginPage=new LoginPage();
+        loginPage=new LoginPage();
 
         loginPage.emailBoxWithFindBys.sendKeys(ConfigurationReader
                 .get("userEmail")+ Keys.ENTER);
@@ -88,7 +94,64 @@ public class _1_PositiveLoginTest extends TestBase {
         String exceptedTitle="Dashboard";
 
         Assert.assertTrue(actualTitle.contains(exceptedTitle));
-
-
     }
+
+    @Test
+    public void positiveLoginTest_3() {
+        /**
+         * navigate to kraft login page
+         * login with valid credentials
+         * verify that the user's name is seen on dashboard page
+         * note: do login process with login(userEmail,password) method
+         */
+       // LoginPage loginPage=new LoginPage();
+        loginPage=new LoginPage();
+        loginPage.login(ConfigurationReader.get("userEmail"),ConfigurationReader.get("password"));
+
+        DashboardPage dashboardpage=new DashboardPage();
+        String actualUserName = dashboardpage.userName.getText();
+        String expectedUserName=ConfigurationReader.get("userName");
+
+        Assert.assertEquals(actualUserName,expectedUserName,"should be same");
+    }
+    @Test
+    public void positiveLoginTest_4() {
+        /**
+         * navigate to kraft login page
+         * login with valid credentials
+         * verify that the user's name is seen on dashboard page
+         * note: do login process with login() method  //without parameter
+         */
+
+        //LoginPage loginPage=new LoginPage();
+        loginPage=new LoginPage();
+        loginPage.login();
+
+        DashboardPage dashboardpage=new DashboardPage();
+        String actualUserName = dashboardpage.userName.getText();
+        String expectedUserName=ConfigurationReader.get("userName");
+
+        Assert.assertEquals(actualUserName,expectedUserName,"should be same");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

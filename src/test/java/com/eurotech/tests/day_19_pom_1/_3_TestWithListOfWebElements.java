@@ -1,6 +1,6 @@
 package com.eurotech.tests.day_19_pom_1;
 
-import com.eurotech.pages.Dashboardpage;
+import com.eurotech.pages.DashboardPage;
 import com.eurotech.pages.LoginPage;
 import com.eurotech.tests.TestBase;
 import com.eurotech.utilities.ConfigurationReader;
@@ -17,13 +17,13 @@ public class _3_TestWithListOfWebElements extends TestBase {
          * verify success login user's name (Melih Gezer)
          */
         LoginPage loginPage=new LoginPage();
-        loginPage.loginInputs.get(0).sendKeys(ConfigurationReader.get("useremail"));
+        loginPage.loginInputs.get(0).sendKeys(ConfigurationReader.get("userEmail"));
         loginPage.loginInputs.get(1).sendKeys(ConfigurationReader.get("password"));
         loginPage.loginBtn.click();
 
-        Dashboardpage dashboardpage=new Dashboardpage();
+        DashboardPage dashboardpage=new DashboardPage();
         String actualName = dashboardpage.userName.getText();
-        String expectedUserName="Melih Gezer";
+        String expectedUserName="mustafa";
         Assert.assertEquals(actualName,expectedUserName);
 
 

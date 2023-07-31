@@ -28,10 +28,12 @@ public class _4_SingletonTest {
         driver.get("https://www.google.com.tr");
     }
     @Test
-    public void test4() {
+    public void test4() throws InterruptedException {
         //WebDriver driver= WebDriverFactory.getDriver("chrome");
         WebDriver driver= Driver.get();
-        //driver.get("https://www.google.com.tr");
+        driver.get("https://www.google.com");
+        driver.findElement(By.xpath("//div[text()='Tümünü kabul et']")).click();
+        Thread.sleep(1000);
         driver.findElement(By.name("q")).sendKeys("selenium"+ Keys.ENTER);
 
     }
