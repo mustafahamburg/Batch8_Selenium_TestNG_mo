@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d58ea77-f247-4541-ade2-f29220fe9e06" name="Changes" comment="web tables">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/EditProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/UserProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_19_pom_1/_2_NegativeLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_20_pom_2/_1_DashBoardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_20_pom_2/_2_EditProfileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/utilities/BrowserUtils.java" afterDir="false" />
+    <list default="true" id="6d58ea77-f247-4541-ade2-f29220fe9e06" name="Changes" comment="pom_2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/AddEducationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_20_pom_2/_4_StaleElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/Dashboardpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_18_properties_singleton/_4_SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_18_properties_singleton/_4_SingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_18_properties_singleton/_5_LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_18_properties_singleton/_5_LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_19_pom_1/_1_PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_19_pom_1/_1_PositiveLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_19_pom_1/_3_TestWithListOfWebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_19_pom_1/_3_TestWithListOfWebElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/EditProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/EditProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/UserProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/pages/UserProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_20_pom_2/_2_EditProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_20_pom_2/_2_EditProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_20_pom_2/_3_AddEducation_Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eurotech/tests/day_20_pom_2/_3_AddEducation_Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +51,7 @@
       <recent name="com.eurotech.tests.day_06_07_xPath_locator" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._2_EditProfileTest.editProfileTest">
+  <component name="RunManager" selected="TestNG._4_StaleElement.staleElement">
     <configuration name="_1_DashBoardTest.navigateMenu_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch8_Selenium_TestNG_mo" />
       <extension name="coverage">
@@ -97,41 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_DashBoardTest.tabMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch8_Selenium_TestNG_mo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eurotech.tests.day_20_pom_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_20_pom_2" />
-      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_20_pom_2._1_DashBoardTest" />
-      <option name="METHOD_NAME" value="tabMenuTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1_PositiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch8_Selenium_TestNG_mo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eurotech.tests.day_19_pom_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_19_pom_1" />
-      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_19_pom_1._1_PositiveLoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_2_EditProfileTest.editProfileTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch8_Selenium_TestNG_mo" />
       <extension name="coverage">
@@ -150,13 +106,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_3_AddEducation_Task.addEducationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch8_Selenium_TestNG_mo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurotech.tests.day_20_pom_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_20_pom_2" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_20_pom_2._3_AddEducation_Task" />
+      <option name="METHOD_NAME" value="addEducationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_4_StaleElement.staleElement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch8_Selenium_TestNG_mo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurotech.tests.day_20_pom_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eurotech.tests.day_20_pom_2" />
+      <option name="MAIN_CLASS_NAME" value="com.eurotech.tests.day_20_pom_2._4_StaleElement" />
+      <option name="METHOD_NAME" value="staleElement" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG._4_StaleElement.staleElement" />
+        <item itemvalue="TestNG._3_AddEducation_Task.addEducationTest" />
         <item itemvalue="TestNG._2_EditProfileTest.editProfileTest" />
         <item itemvalue="TestNG._1_DashBoardTest.navigateMenu_2" />
         <item itemvalue="TestNG._1_DashBoardTest.navigateMenu_1" />
-        <item itemvalue="TestNG._1_DashBoardTest.tabMenuTest" />
-        <item itemvalue="TestNG._1_PositiveLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690697148726</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pom_2">
+      <option name="closed" value="true" />
+      <created>1690824049729</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690824049729</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,6 +215,7 @@
     <MESSAGE value="wait1" />
     <MESSAGE value="Actions" />
     <MESSAGE value="web tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="web tables" />
+    <MESSAGE value="pom_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom_2" />
   </component>
 </project>

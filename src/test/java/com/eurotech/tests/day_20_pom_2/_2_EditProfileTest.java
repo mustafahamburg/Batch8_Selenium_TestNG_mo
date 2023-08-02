@@ -53,7 +53,7 @@ public class _2_EditProfileTest extends TestBase {
 
         dashboardPage.navigateToTabsAndModules("mustafa","My Profile");
 
-        BrowserUtils.waitForVisibility(userProfilePage.editProfilePageTitle,5);
+        BrowserUtils.waitForVisibility(userProfilePage.userProfilePageTitle,5);
 
         userProfilePage.navigateUserProfileTabs("Edit Profile");
 
@@ -61,11 +61,13 @@ public class _2_EditProfileTest extends TestBase {
 
         editProfilePage.aboutBox.sendKeys("SDET programme , graduated from KraftTech");
 
-        editProfilePage.companyBox.clear();
-        editProfilePage.companyBox.sendKeys("Google");
+//        editProfilePage.companyBox.clear();
+//        editProfilePage.companyBox.sendKeys("Google");
+        BrowserUtils.clearAndSendKeys(editProfilePage.locationBox,"Hamburg");
 
-        Select select=new Select(editProfilePage.jobSelect);
-        select.selectByVisibleText("QA Automation Engineer");
+       // Select select=new Select(editProfilePage.jobSelect);
+        //select.selectByVisibleText("QA Automation Engineer");
+        editProfilePage.selectJob("Manual Tester"); // böyle daha temiz cod...
 
         editProfilePage.websiteBox.clear();
         editProfilePage.websiteBox.sendKeys("www.google.com");

@@ -2,6 +2,7 @@ package com.eurotech.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class EditProfilePage extends BasePage{
     @FindBy(id = "about")
@@ -18,6 +19,11 @@ public class EditProfilePage extends BasePage{
     public WebElement skillsBox;
     @FindBy(xpath = "//button[text()='Save Changes']")
     public WebElement saveChangesBtn;
+    public void selectJob(String jobOption){
+        Select select=new Select(jobSelect);
+        select.selectByVisibleText(jobOption);
+
+    }
 
 
 
